@@ -70,15 +70,37 @@
 
 // QUERY SELECTOR //
 
-var header = document.querySelector('#main-header');
-header.style.borderBottom = '5px solid red'
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = '5px solid red'
 
-var inputs =  document.querySelector('input');
-inputs.value = 'hello world'
+// var inputs =  document.querySelector('input');
+// inputs.value = 'hello world'
 
-var submit = document.querySelector('input[type="submit"]');
-submit.value = "SEND"
+// var submit = document.querySelector('input[type="submit"]');
+// submit.value = "SEND"
 
-var item = document.querySelector('.list-group-item');
+// var item = document.querySelector('.list-group-item');
 
-item.style.color = 'red'
+// item.style.color = 'red';
+
+// QUERY SELECTOR ALL //
+
+// var titles = document.querySelectorAll('.title');
+// console.log(titles);
+
+// titles[0].textContent ='Hello, you';
+
+// var odd = document.querySelectorAll('li:nth-child(odd)');
+// var even = document.querySelectorAll('li:nth-child(even)');
+// for(var i = 0; i < odd.length; i++){
+//     odd[i].style.backgroundColor = 'red';
+//     even[i].style.backgroundColor = 'black';
+//     even[i].style.color = 'white';
+//     odd[i].style.color = 'white';
+// }
+
+
+
+
+
+// Traversing DOM //
