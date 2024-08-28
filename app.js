@@ -104,3 +104,62 @@
 
 
 // Traversing DOM //
+
+var itemList = document.querySelector('#items');
+
+// Parent Node
+
+// console.log(itemList.parentNode)
+// console.log(itemList.parentNode.parentNode)
+// itemList.parentNode.style.backgroundColor = 'red'
+// itemList.parentNode.style.color = 'dark'
+
+// Parent Element
+
+// console.log(itemList.parentElement)
+// console.log(itemList.parentElement.parentElement)
+// itemList.parentElement.style.backgroundColor = 'red'
+// itemList.parentElement.style.color = 'dark'
+
+
+// CHild Nodes //
+// console.log(itemList.childNodes)
+
+
+// // Children //
+// console.log(itemList.children);
+// console.log(itemList.children[0])
+// itemList.children[0].style.background = 'yellow'
+
+// // First Child
+// console.log(itemList.firstChild);
+
+
+// // First  Element Child //
+// console.log(itemList.firstElementChild)
+// itemList.firstElementChild.textContent = 'First Element Child'
+
+
+
+// First Child
+// console.log(itemList.lastChild);
+
+
+// // First  Element Child //
+// console.log(itemList.lastElementChild)
+// itemList.lastElementChild.textContent = 'last Element Child'
+
+
+//Next Sibling //
+
+// console.log(itemList.nextSibling);
+
+// // Next Element Sibling //
+// console.log(itemList.nextElementSibling);
+
+
+// // Previous Sibling //
+// console.log(itemList.previousSibling);
+
+// // Previuos Sibling Element//
+// console.log(itemList.previousElementSibling);
